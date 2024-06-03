@@ -1,6 +1,8 @@
 # advanced-muting
 several different ways of muting
 
+including semantic
+
 
 # how to
 
