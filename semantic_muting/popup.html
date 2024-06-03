@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            width: 300px; /* Increase the width of the popup */
+            height: 400px; /* Increase the height of the popup */
+        }
+        h1 {
+            font-size: 24px;
+            color: #fff; /* White text */
+        }
+        button, input {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        input {
+            background-color: #333; /* Darker background for input */
+            color: #fff; /* White text */
+        }
+        textarea {
+            background-color: #333; /* Darker background for textarea */
+            color: #fff; /* White text */
+            width: 100%;
+            height: 100px; /* Increase height for better visibility */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            resize: none; /* Disable resizing */
+        }
+    </style>
+</head>
+<body>
+    <h1>Filter Posts</h1>
+    <button id="filterUppercase">Filter Uppercase</button>
+    <textarea id="filterTerms" placeholder="Enter comma-delimited terms"></textarea>
+    <button id="filterByTerms">Filter by Terms</button>
+    <script src="popup.js"></script>
+</body>
+</html>
